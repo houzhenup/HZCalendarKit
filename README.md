@@ -20,6 +20,7 @@ self.label.text = [NSString stringWithFormat:@"%@/%@",[goDay toString],[backDay 
 }];
 
 
+
 <li>可以显示单个日期的附加图片（Demo中为12306可预订日期30天）只需提供显示的天数
 
 vc.showImageIndex = 30;
@@ -30,8 +31,13 @@ vc.showImageIndex = 30;
 <b>注意!!!此属性为YES 控制器block中的backDay才有值，否则为nil</b>
 
 vc.isGoBack = YES;
+
 ![往返.gif
 ](http://upload-images.jianshu.io/upload_images/1909734-e6987fa055324477.gif?imageMogr2/auto-orient/strip)
+
+
+
+
 
 <li>pch文件中提供COLOR_THEME可以更改主题颜色
 
