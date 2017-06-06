@@ -12,9 +12,10 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+//设置主题颜色1
 #define COLOR_THEME1 [UIColor redColor];
 
-
+//设置主题颜色
 #define COLOR_THEME ([UIColor colorWithRed:25/256.0  green:168/256.0 blue:0/256.0 alpha:1])
 
 
