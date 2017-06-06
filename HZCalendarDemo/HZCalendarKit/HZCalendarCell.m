@@ -34,8 +34,8 @@
     imghuoche.image = [UIImage imageNamed:@"12306.png"];
     
     [self addSubview:imghuoche];
-    //日期
     
+    //日期
     day_lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 15, self.bounds.size.width, self.bounds.size.width-10)];
     day_lab.textAlignment = NSTextAlignmentCenter;
     day_lab.font = [UIFont systemFontOfSize:14];

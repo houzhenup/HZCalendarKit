@@ -19,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"飞猪旅行";
+    self.title = @"迈维旅行";
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -29,8 +30,6 @@
     [self popCalendarVC];
     //单程日期
    // [self popCalendarVC2];
-
-
     
 }
 -(void)popCalendarVC2{
