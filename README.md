@@ -10,9 +10,8 @@
    
     };
 
-<li>便利构造方法2直接携带block 传入 参数1：显示日期的天数 参数2：显示的起始日期 格式为@"yyyy-MM-dd" 可传nil默认当天 参数2：默认选择的日期@"yyyy-MM-dd" 可传nil默认当天
+<li>便利构造方法2直接携带block 传入参数与上边一致
 
-   
     HZCalendarViewController *vc = [HZCalendarViewController getVcWithDayNumber:365 FromDateforString:nil Selectdate:nil selectBlock:^(HZCalenderDayModel *goDay,HZCalenderDayModel *backDay) {
 
      self.label.text = [NSString stringWithFormat:@"%@/%@",[goDay toString],[backDay toString]];
@@ -27,6 +26,9 @@
 
 <li>往返日期选择只需isGoBack属性设置为YES
 
-<b color = "red" >注意!!! vc.isGoBack = YES block中的backDay才有值，否则backDay为nil</b>
+<b>注意!!!设置为YES 控制器block中的backDay才有值，否则为nil</b>
  
     vc.isGoBack = YES;
+
+<li>pch文件中提供COLOR_THEME可以更改主题颜色
+
