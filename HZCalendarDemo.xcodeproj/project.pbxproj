@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2116A9D81EE65FDF0016D464 /* 12306.png in Resources */ = {isa = PBXBuildFile; fileRef = 2116A9C61EE65FDF0016D464 /* 12306.png */; };
+		2116A9D91EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9C81EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.m */; };
+		2116A9DA1EE65FDF0016D464 /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9CA1EE65FDF0016D464 /* CalendarMonthHeaderView.m */; };
+		2116A9DB1EE65FDF0016D464 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2116A9CB1EE65FDF0016D464 /* close@2x.png */; };
+		2116A9DC1EE65FDF0016D464 /* HZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9CD1EE65FDF0016D464 /* HZCalendarCell.m */; };
+		2116A9DD1EE65FDF0016D464 /* HZCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9CF1EE65FDF0016D464 /* HZCalendarLogic.m */; };
+		2116A9DE1EE65FDF0016D464 /* HZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9D11EE65FDF0016D464 /* HZCalendarViewController.m */; };
+		2116A9DF1EE65FDF0016D464 /* HZCalenderDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9D31EE65FDF0016D464 /* HZCalenderDayModel.m */; };
+		2116A9E01EE65FDF0016D464 /* HZCalenderGobackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9D51EE65FDF0016D464 /* HZCalenderGobackView.m */; };
+		2116A9E11EE65FDF0016D464 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A9D71EE65FDF0016D464 /* NSDate+WQCalendarLogic.m */; };
 		21EE96E91EE54CEF003A74FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE96E81EE54CEF003A74FA /* main.m */; };
 		21EE96EC1EE54CEF003A74FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE96EB1EE54CEF003A74FA /* AppDelegate.m */; };
 		21EE96EF1EE54CEF003A74FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE96EE1EE54CEF003A74FA /* ViewController.m */; };
 		21EE96F21EE54CEF003A74FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EE96F01EE54CEF003A74FA /* Main.storyboard */; };
 		21EE96F41EE54CEF003A74FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EE96F31EE54CEF003A74FA /* Assets.xcassets */; };
 		21EE96F71EE54CEF003A74FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EE96F51EE54CEF003A74FA /* LaunchScreen.storyboard */; };
-		21EE97351EE5614F003A74FA /* 12306.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EE97231EE5614F003A74FA /* 12306.png */; };
-		21EE97361EE5614F003A74FA /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE97251EE5614F003A74FA /* CalendarMonthCollectionViewLayout.m */; };
-		21EE97371EE5614F003A74FA /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE97271EE5614F003A74FA /* CalendarMonthHeaderView.m */; };
-		21EE97381EE5614F003A74FA /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EE97281EE5614F003A74FA /* close@2x.png */; };
-		21EE97391EE5614F003A74FA /* HZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE972A1EE5614F003A74FA /* HZCalendarCell.m */; };
-		21EE973A1EE5614F003A74FA /* HZCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE972C1EE5614F003A74FA /* HZCalendarLogic.m */; };
-		21EE973B1EE5614F003A74FA /* HZCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE972E1EE5614F003A74FA /* HZCalendarViewController.m */; };
-		21EE973C1EE5614F003A74FA /* HZCalenderDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE97301EE5614F003A74FA /* HZCalenderDayModel.m */; };
-		21EE973D1EE5614F003A74FA /* HZCalenderGobackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE97321EE5614F003A74FA /* HZCalenderGobackView.m */; };
-		21EE973E1EE5614F003A74FA /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EE97341EE5614F003A74FA /* NSDate+WQCalendarLogic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2116A9C61EE65FDF0016D464 /* 12306.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12306.png; sourceTree = "<group>"; };
+		2116A9C71EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		2116A9C81EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		2116A9C91EE65FDF0016D464 /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		2116A9CA1EE65FDF0016D464 /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		2116A9CB1EE65FDF0016D464 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		2116A9CC1EE65FDF0016D464 /* HZCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarCell.h; sourceTree = "<group>"; };
+		2116A9CD1EE65FDF0016D464 /* HZCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarCell.m; sourceTree = "<group>"; };
+		2116A9CE1EE65FDF0016D464 /* HZCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarLogic.h; sourceTree = "<group>"; };
+		2116A9CF1EE65FDF0016D464 /* HZCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarLogic.m; sourceTree = "<group>"; };
+		2116A9D01EE65FDF0016D464 /* HZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarViewController.h; sourceTree = "<group>"; };
+		2116A9D11EE65FDF0016D464 /* HZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarViewController.m; sourceTree = "<group>"; };
+		2116A9D21EE65FDF0016D464 /* HZCalenderDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalenderDayModel.h; sourceTree = "<group>"; };
+		2116A9D31EE65FDF0016D464 /* HZCalenderDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalenderDayModel.m; sourceTree = "<group>"; };
+		2116A9D41EE65FDF0016D464 /* HZCalenderGobackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalenderGobackView.h; sourceTree = "<group>"; };
+		2116A9D51EE65FDF0016D464 /* HZCalenderGobackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalenderGobackView.m; sourceTree = "<group>"; };
+		2116A9D61EE65FDF0016D464 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		2116A9D71EE65FDF0016D464 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
 		21EE96E41EE54CEF003A74FA /* HZCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EE96E81EE54CEF003A74FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21EE96EA1EE54CEF003A74FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,24 +55,6 @@
 		21EE96F61EE54CEF003A74FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21EE96F81EE54CEF003A74FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21EE97211EE55799003A74FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		21EE97231EE5614F003A74FA /* 12306.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12306.png; sourceTree = "<group>"; };
-		21EE97241EE5614F003A74FA /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
-		21EE97251EE5614F003A74FA /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
-		21EE97261EE5614F003A74FA /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
-		21EE97271EE5614F003A74FA /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
-		21EE97281EE5614F003A74FA /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
-		21EE97291EE5614F003A74FA /* HZCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarCell.h; sourceTree = "<group>"; };
-		21EE972A1EE5614F003A74FA /* HZCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarCell.m; sourceTree = "<group>"; };
-		21EE972B1EE5614F003A74FA /* HZCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarLogic.h; sourceTree = "<group>"; };
-		21EE972C1EE5614F003A74FA /* HZCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarLogic.m; sourceTree = "<group>"; };
-		21EE972D1EE5614F003A74FA /* HZCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalendarViewController.h; sourceTree = "<group>"; };
-		21EE972E1EE5614F003A74FA /* HZCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalendarViewController.m; sourceTree = "<group>"; };
-		21EE972F1EE5614F003A74FA /* HZCalenderDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalenderDayModel.h; sourceTree = "<group>"; };
-		21EE97301EE5614F003A74FA /* HZCalenderDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalenderDayModel.m; sourceTree = "<group>"; };
-		21EE97311EE5614F003A74FA /* HZCalenderGobackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCalenderGobackView.h; sourceTree = "<group>"; };
-		21EE97321EE5614F003A74FA /* HZCalenderGobackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCalenderGobackView.m; sourceTree = "<group>"; };
-		21EE97331EE5614F003A74FA /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
-		21EE97341EE5614F003A74FA /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +68,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2116A9C51EE65FDF0016D464 /* HZCalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				2116A9C61EE65FDF0016D464 /* 12306.png */,
+				2116A9C71EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.h */,
+				2116A9C81EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.m */,
+				2116A9C91EE65FDF0016D464 /* CalendarMonthHeaderView.h */,
+				2116A9CA1EE65FDF0016D464 /* CalendarMonthHeaderView.m */,
+				2116A9CB1EE65FDF0016D464 /* close@2x.png */,
+				2116A9CC1EE65FDF0016D464 /* HZCalendarCell.h */,
+				2116A9CD1EE65FDF0016D464 /* HZCalendarCell.m */,
+				2116A9CE1EE65FDF0016D464 /* HZCalendarLogic.h */,
+				2116A9CF1EE65FDF0016D464 /* HZCalendarLogic.m */,
+				2116A9D01EE65FDF0016D464 /* HZCalendarViewController.h */,
+				2116A9D11EE65FDF0016D464 /* HZCalendarViewController.m */,
+				2116A9D21EE65FDF0016D464 /* HZCalenderDayModel.h */,
+				2116A9D31EE65FDF0016D464 /* HZCalenderDayModel.m */,
+				2116A9D41EE65FDF0016D464 /* HZCalenderGobackView.h */,
+				2116A9D51EE65FDF0016D464 /* HZCalenderGobackView.m */,
+				2116A9D61EE65FDF0016D464 /* NSDate+WQCalendarLogic.h */,
+				2116A9D71EE65FDF0016D464 /* NSDate+WQCalendarLogic.m */,
+			);
+			path = HZCalendarKit;
+			sourceTree = "<group>";
+		};
 		21EE96DB1EE54CEF003A74FA = {
 			isa = PBXGroup;
 			children = (
+				2116A9C51EE65FDF0016D464 /* HZCalendarKit */,
 				21EE96E61EE54CEF003A74FA /* HZCalendarDemo */,
 				21EE96E51EE54CEF003A74FA /* Products */,
 			);
@@ -87,7 +113,6 @@
 		21EE96E61EE54CEF003A74FA /* HZCalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				21EE97221EE5614F003A74FA /* HZCalendarKit */,
 				21EE96EA1EE54CEF003A74FA /* AppDelegate.h */,
 				21EE96EB1EE54CEF003A74FA /* AppDelegate.m */,
 				21EE96ED1EE54CEF003A74FA /* ViewController.h */,
@@ -108,31 +133,6 @@
 				21EE96E81EE54CEF003A74FA /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		21EE97221EE5614F003A74FA /* HZCalendarKit */ = {
-			isa = PBXGroup;
-			children = (
-				21EE97231EE5614F003A74FA /* 12306.png */,
-				21EE97241EE5614F003A74FA /* CalendarMonthCollectionViewLayout.h */,
-				21EE97251EE5614F003A74FA /* CalendarMonthCollectionViewLayout.m */,
-				21EE97261EE5614F003A74FA /* CalendarMonthHeaderView.h */,
-				21EE97271EE5614F003A74FA /* CalendarMonthHeaderView.m */,
-				21EE97281EE5614F003A74FA /* close@2x.png */,
-				21EE97291EE5614F003A74FA /* HZCalendarCell.h */,
-				21EE972A1EE5614F003A74FA /* HZCalendarCell.m */,
-				21EE972B1EE5614F003A74FA /* HZCalendarLogic.h */,
-				21EE972C1EE5614F003A74FA /* HZCalendarLogic.m */,
-				21EE972D1EE5614F003A74FA /* HZCalendarViewController.h */,
-				21EE972E1EE5614F003A74FA /* HZCalendarViewController.m */,
-				21EE972F1EE5614F003A74FA /* HZCalenderDayModel.h */,
-				21EE97301EE5614F003A74FA /* HZCalenderDayModel.m */,
-				21EE97311EE5614F003A74FA /* HZCalenderGobackView.h */,
-				21EE97321EE5614F003A74FA /* HZCalenderGobackView.m */,
-				21EE97331EE5614F003A74FA /* NSDate+WQCalendarLogic.h */,
-				21EE97341EE5614F003A74FA /* NSDate+WQCalendarLogic.m */,
-			);
-			path = HZCalendarKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EE97381EE5614F003A74FA /* close@2x.png in Resources */,
-				21EE97351EE5614F003A74FA /* 12306.png in Resources */,
+				2116A9DB1EE65FDF0016D464 /* close@2x.png in Resources */,
+				2116A9D81EE65FDF0016D464 /* 12306.png in Resources */,
 				21EE96F71EE54CEF003A74FA /* LaunchScreen.storyboard in Resources */,
 				21EE96F41EE54CEF003A74FA /* Assets.xcassets in Resources */,
 				21EE96F21EE54CEF003A74FA /* Main.storyboard in Resources */,
@@ -209,17 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EE973B1EE5614F003A74FA /* HZCalendarViewController.m in Sources */,
+				2116A9DE1EE65FDF0016D464 /* HZCalendarViewController.m in Sources */,
 				21EE96EF1EE54CEF003A74FA /* ViewController.m in Sources */,
 				21EE96EC1EE54CEF003A74FA /* AppDelegate.m in Sources */,
-				21EE973D1EE5614F003A74FA /* HZCalenderGobackView.m in Sources */,
-				21EE973A1EE5614F003A74FA /* HZCalendarLogic.m in Sources */,
+				2116A9E01EE65FDF0016D464 /* HZCalenderGobackView.m in Sources */,
+				2116A9DD1EE65FDF0016D464 /* HZCalendarLogic.m in Sources */,
 				21EE96E91EE54CEF003A74FA /* main.m in Sources */,
-				21EE97371EE5614F003A74FA /* CalendarMonthHeaderView.m in Sources */,
-				21EE973C1EE5614F003A74FA /* HZCalenderDayModel.m in Sources */,
-				21EE973E1EE5614F003A74FA /* NSDate+WQCalendarLogic.m in Sources */,
-				21EE97361EE5614F003A74FA /* CalendarMonthCollectionViewLayout.m in Sources */,
-				21EE97391EE5614F003A74FA /* HZCalendarCell.m in Sources */,
+				2116A9DA1EE65FDF0016D464 /* CalendarMonthHeaderView.m in Sources */,
+				2116A9DF1EE65FDF0016D464 /* HZCalenderDayModel.m in Sources */,
+				2116A9E11EE65FDF0016D464 /* NSDate+WQCalendarLogic.m in Sources */,
+				2116A9D91EE65FDF0016D464 /* CalendarMonthCollectionViewLayout.m in Sources */,
+				2116A9DC1EE65FDF0016D464 /* HZCalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +378,7 @@
 				21EE96FD1EE54CEF003A74FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
